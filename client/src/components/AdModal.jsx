@@ -20,7 +20,11 @@ export default function AdModal({ show, onClose, onComplete, job }) {
         return prev - 1;
       });
     }, 1000);
-
+const script = document.createElement("script");
+    script.src =
+      "//pl27881852.effectivegatecpm.com/80/a3/56/80a356b2a49926df0f50c4608d23e2da.js";
+    script.async = true;
+    document.body.appendChild(script);
     // Create script for atOptions
     const script1 = document.createElement("script");
     script1.innerHTML = `
