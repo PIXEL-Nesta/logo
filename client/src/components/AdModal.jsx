@@ -5,7 +5,7 @@ export default function AdModal({ show, onClose, onComplete, job }) {
 
   useEffect(() => {
     if (!show) return;
-    setTimer(60);
+    setTimer(30);
 
     const interval = setInterval(() => {
       setTimer((prev) => {
@@ -24,6 +24,10 @@ export default function AdModal({ show, onClose, onComplete, job }) {
   if (!show) return null;
 
   return (
+    <div dangerouslySetInnerHTML={{
+  __html: `<script type='text/javascript' src='//pl27881852.effectivegatecpm.com/80/a3/56/80a356b2a49926df0f50c4608d23e2da.js'></script>`,
+}} />
+
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white p-6 rounded shadow max-w-md w-full text-center">
         <h2 className="text-xl font-bold mb-4">Watch this ad to get your logo</h2>
