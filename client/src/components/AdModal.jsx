@@ -6,7 +6,7 @@ export default function AdModal({ show, onClose, onComplete, job }) {
   useEffect(() => {
     if (!show) return;
 
-    setTimer(30);
+    setTimer(40);
 
     const interval = setInterval(() => {
       setTimer((prev) => {
